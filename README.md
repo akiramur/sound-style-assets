@@ -9,12 +9,7 @@ configures.
 This repository contains **only audio files and their license/provenance records** — no application
 source code.
 
-## Status
-
-Audio files have not been uploaded yet. This initial commit sets up the repository's license and
-documentation; the actual `audio/` directory (77 files) will be added in a follow-up commit.
-
-## Structure (planned)
+## Structure
 
 ```
 audio/
@@ -27,10 +22,10 @@ LICENSE                 # licensing terms for this repository's own content
 
 ## Usage
 
-Once populated and tagged, files are served via jsDelivr's GitHub integration:
+Files are served via jsDelivr's GitHub integration:
 
 ```
-https://cdn.jsdelivr.net/gh/akiramur/sound-style-assets@<tag>/audio/<file>
+https://cdn.jsdelivr.net/gh/akiramur/sound-style-assets@v1.0.0/audio/<file>
 ```
 
 Always pin to a specific tag (e.g. `@v1.0.0`) rather than a branch name or the untagged default —
