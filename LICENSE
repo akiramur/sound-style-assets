@@ -1,0 +1,33 @@
+This repository contains audio files from multiple sources under different licenses. See NOTICE.md
+for the complete per-file breakdown. This LICENSE file covers only:
+
+  (a) the original, entirely custom-synthesized audio files listed in NOTICE.md's
+      "Custom-Synthesized Audio" section, and
+  (b) this repository's own non-audio content (README.md, NOTICE.md, directory structure, etc.).
+
+For (a) and (b), to the extent possible under law, the author(s) have waived all copyright and
+related or neighboring rights, dedicating this work to the public domain worldwide, under the terms
+of the Creative Commons CC0 1.0 Universal Public Domain Dedication:
+
+  https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+You can copy, modify, distribute, and use this work, even for commercial purposes, all without
+asking permission.
+
+---
+
+Every other audio file in this repository (third-party recordings sourced from Pixabay, and CC0
+tracks sourced from OpenGameArt.org) remains subject to its own original license, as documented per
+file in NOTICE.md. This LICENSE file does not grant, restrict, or otherwise modify those separate
+licenses — NOTICE.md is the authoritative source for what license applies to which file.
+
+As a summary (see NOTICE.md for details and per-file citations):
+
+- Files under the Pixabay Content License may be used and modified for free, commercially or
+  non-commercially, without attribution. See https://pixabay.com/service/license/ for the full
+  terms, including the "Standalone" distribution restriction discussed in NOTICE.md.
+- Files under CC0 (Public Domain) carry no restrictions or attribution requirement.
+
+No file in this repository requires attribution to be used. NOTICE.md's per-file records are kept
+as a provenance record and as a courtesy to original creators, not because any license here demands
+it.
