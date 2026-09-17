@@ -191,7 +191,9 @@ files above, consistent with (but not proof of) the same Pixabay-download-then-e
 inferred-not-confirmed provenance gap rather than holding them back; their original Pixabay source
 pages should still be re-identified and recorded here when possible. (`woman-scream.mp3`, renamed
 from `fuel-boost.mp3` once its content was confirmed, is a +5dB volume-boosted copy of `fuel.mp3`
-made in-house, sharing the same origin/license status.)
+made in-house, sharing the same origin/license status. `fuel.mp3` was subsequently replaced with an
+identical copy of `woman-scream.mp3` so both play at the same volume — they are now the same file
+under two names.)
 
 ---
 
