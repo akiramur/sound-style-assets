@@ -176,20 +176,21 @@ attribution legally required, credited below anyway where known.
 | `halloween-ambient-desert.mp3` | diff_style — "Halloween Moods 6" (#420183) |
 | `halloween-ambient-forest.mp3` | audiocoffee — "Halloween Impact" (#167297) |
 
-### Unconfirmed origin (28 files) — provenance gap, published anyway by owner's decision
+### Unconfirmed origin (29 files) — provenance gap, published anyway by owner's decision
 
 `alcohol-shop.mp3`, `aquarium.mp3`, `bar.mp3`, `bicycle.mp3`, `car-repair.mp3`, `car-wash.mp3`,
 `car.mp3`, `cemetery.mp3`, `crying-woman.mp3`, `dog-park.mp3`, `farm.mp3`, `fuel.mp3`,
-`ghost-girl.mp3`, `halloween-ambient-alt.mp3`, `halloween-ambient-night.mp3`,
+`fuel-boost.mp3`, `ghost-girl.mp3`, `halloween-ambient-alt.mp3`, `halloween-ambient-night.mp3`,
 `haunted-mansion.mp3`, `highway.mp3`, `horse-riding.mp3`, `industry.mp3`, `laundry.mp3`,
 `parking.mp3`, `racetrack-horse.mp3`, `restaurant.mp3`, `shop.mp3`, `traffic-sfx.mp3`,
 `veterinary.mp3`, `witch-shop.mp3`, `zoo.mp3` predate any provenance record — no original Pixabay
 filenames, artist credits, or license text were kept alongside them, and none could be recovered
 from git history or a matching raw-download pool. Their encoder fingerprint matches the confirmed
 files above, consistent with (but not proof of) the same Pixabay-download-then-edit origin. These
-28 files were published here at the repository owner's explicit request, accepting this as an
+29 files were published here at the repository owner's explicit request, accepting this as an
 inferred-not-confirmed provenance gap rather than holding them back; their original Pixabay source
-pages should still be re-identified and recorded here when possible.
+pages should still be re-identified and recorded here when possible. (`fuel-boost.mp3` is a +5dB
+volume-boosted copy of `fuel.mp3` made in-house, sharing the same origin/license status.)
 
 ---
 
