@@ -1,11 +1,13 @@
 # Audio Asset License Notice
 
-This document records the license and provenance of every audio file in this repository's `audio/`
-directory (the `sound-style` SDK's "Basic" demo sound-style — 77 files). **No file listed here
-requires attribution to use, modify, or redistribute.** See [`LICENSE`](./LICENSE) for how this
-repository's own license terms relate to the third-party licenses below.
+This document records the license and provenance of every audio file in this repository. It covers
+two independent sound-styles for the `sound-style` SDK: **Basic** (`audio-basic/`, 77 files — this
+section) and **Halloween** (`audio-halloween/`, 49 files — its own section further down, which
+includes a caveat on 28 of them). **No file listed here requires attribution to use, modify, or
+redistribute.** See [`LICENSE`](./LICENSE) for how this repository's own license terms relate to the
+third-party licenses below.
 
-## Summary by license
+## Basic Style — Summary by license
 
 | License | File count | Attribution required? |
 |---|---|---|
@@ -137,6 +139,57 @@ tail added.
 
 Kenney's license carries no attribution requirement, but welcomes optional credit (a mention of
 kenney.nl).
+
+---
+
+## Halloween Style — audio-halloween/ (49 files)
+
+All 49 files are Pixabay downloads, re-encoded to mp3 (44.1kHz stereo, 128kbps) with an edit applied
+to every one — trimmed to length with a fade-out, and loudness-normalized (two-pass `loudnorm`) to a
+consistent reference level (~-19.5 LUFS for SFX, ~-17.5 LUFS for BGM). Same Pixabay Content License
+reasoning as above (every file edited, none served as a general-purpose downloadable library) — no
+attribution legally required, credited below anyway where known.
+
+### Confirmed origin (21 files)
+
+| File | Pixabay source |
+|---|---|
+| `fitness-centre.mp3` | alesiadavina — "Creepy Halloween Horror Voice Run" (vol. 006, #165226) |
+| `lodging.mp3` | alesiadavina — "Halloween Horror Voice Hello" (vol. 006, #165220) |
+| `casino.mp3` | alesiadavina — "Scary Female Halloween Horror Laughter" (vol. 006, #165223) |
+| `bowling-alley.mp3` | charlie_raven — "Halloween Impact 02" (#93804) |
+| `baseball.mp3` | charlie_raven — "Halloween Impact 03" (#93806) |
+| `basketball.mp3` | charlie_raven — "Halloween Impact 05" (#93808) |
+| `library.mp3` | dragon-studio — "Creepy Ghost Whisper" (#410564) |
+| `viewpoint.mp3` | dragon-studio — "Creepy Wind" (#410541) |
+| `school.mp3` | dragon-studio — "Halloween Ghost Whisper" (#410557) |
+| `museum.mp3` | dragon-studio — "Halloween Scary Sound" (#410561) |
+| `harbor.mp3` | dragon-studio — "Halloween Wind" (#410540) |
+| `fire-station.mp3` | dragon-studio — "Scary Sound" (#410559) |
+| `castle.mp3` | dragon-studio — "Spooky Halloween Intro" (#410549) |
+| `prison.mp3` | dragon-studio — "Spooky Scary Sound" (#410563) |
+| `pharmacy.mp3` | freesound_community — "Witch" (#103635) |
+| `toilet.mp3` | fronbondi_skegs — "SFX Halloween Horror Surprise Sound Effect" (#247545) |
+| `church-bells.mp3` | idoberg — "Cinematic Halloween Bells Loop" (#421592) |
+| `watermill.mp3` | idoberg — "Creepy Halloween Bells Loop" (#408748) |
+| `halloween-ambient-sea.mp3` | freesound_community — "Scary Night" (#28893) |
+| `halloween-ambient-desert.mp3` | diff_style — "Halloween Moods 6" (#420183) |
+| `halloween-ambient-forest.mp3` | audiocoffee — "Halloween Impact" (#167297) |
+
+### Unconfirmed origin (28 files) — provenance gap, published anyway by owner's decision
+
+`alcohol-shop.mp3`, `aquarium.mp3`, `bar.mp3`, `bicycle.mp3`, `car-repair.mp3`, `car-wash.mp3`,
+`car.mp3`, `cemetery.mp3`, `crying-woman.mp3`, `dog-park.mp3`, `farm.mp3`, `fuel.mp3`,
+`ghost-girl.mp3`, `halloween-ambient-alt.mp3`, `halloween-ambient-night.mp3`,
+`haunted-mansion.mp3`, `highway.mp3`, `horse-riding.mp3`, `industry.mp3`, `laundry.mp3`,
+`parking.mp3`, `racetrack-horse.mp3`, `restaurant.mp3`, `shop.mp3`, `traffic-sfx.mp3`,
+`veterinary.mp3`, `witch-shop.mp3`, `zoo.mp3` predate any provenance record — no original Pixabay
+filenames, artist credits, or license text were kept alongside them, and none could be recovered
+from git history or a matching raw-download pool. Their encoder fingerprint matches the confirmed
+files above, consistent with (but not proof of) the same Pixabay-download-then-edit origin. These
+28 files were published here at the repository owner's explicit request, accepting this as an
+inferred-not-confirmed provenance gap rather than holding them back; their original Pixabay source
+pages should still be re-identified and recorded here when possible.
 
 ---
 

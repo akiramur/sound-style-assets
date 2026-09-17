@@ -1,10 +1,10 @@
 # sound-style-assets
 
 Public audio assets (SE/BGM) for the [`sound-style`](https://github.com/akiramur/sound-style) SDK's
-"Basic" demo sound-style. This repository exists so the audio files can be served over a public CDN
-(via [jsDelivr](https://www.jsdelivr.com/)) instead of being bundled with every app that uses the
-SDK — `sound-style`'s `AssetManager` fetches these files at runtime from whatever `baseUrl` an app
-configures.
+demo sound-styles — **Basic** and **Halloween**. This repository exists so the audio files can be
+served over a public CDN (via [jsDelivr](https://www.jsdelivr.com/)) instead of being bundled with
+every app that uses the SDK — `sound-style`'s `AssetManager` fetches these files at runtime from
+whatever `baseUrl` an app configures.
 
 This repository contains **only audio files and their license/provenance records** — no application
 source code.
@@ -12,9 +12,13 @@ source code.
 ## Structure
 
 ```
-audio/
+audio-basic/
   poi-category-*.wav   # POI-tap sound effects
   area-bgm-*.mp3        # terrain background music
+  ...
+audio-halloween/
+  <category>.mp3        # POI-tap sound effects
+  halloween-ambient-*.mp3  # terrain background music
   ...
 NOTICE.md               # per-file license/provenance record — read this before using any file
 LICENSE                 # licensing terms for this repository's own content
@@ -25,13 +29,18 @@ LICENSE                 # licensing terms for this repository's own content
 Files are served via jsDelivr's GitHub integration:
 
 ```
-https://cdn.jsdelivr.net/gh/akiramur/sound-style-assets@v1.0.0/audio/<file>
+https://cdn.jsdelivr.net/gh/akiramur/sound-style-assets@<tag>/audio-basic/<file>
+https://cdn.jsdelivr.net/gh/akiramur/sound-style-assets@<tag>/audio-halloween/<file>
 ```
 
-Always pin to a specific tag (e.g. `@v1.0.0`) rather than a branch name or the untagged default —
+Always pin to a specific tag (e.g. `@v1.1.0`) rather than a branch name or the untagged default —
 tag-pinned URLs are treated as immutable and cached indefinitely, while branch/default URLs can take
 up to 7 days to reflect updates. See jsDelivr's [purge tool](https://www.jsdelivr.com/tools/purge) if
 a branch-based URL ever needs to be force-refreshed.
+
+`v1.0.0` predates the `audio-basic/`/`audio-halloween/` split (Basic Style's files lived at
+`audio/<file>` under that tag) — existing consumers pinned to `v1.0.0` are unaffected, since tags are
+immutable; only new consumers need the new paths.
 
 ## Licensing
 
