@@ -176,24 +176,27 @@ attribution legally required, credited below anyway where known.
 | `halloween-ambient-desert.mp3` | diff_style — "Halloween Moods 6" (#420183) |
 | `halloween-ambient-forest.mp3` | audiocoffee — "Halloween Impact" (#167297) |
 
-### Unconfirmed origin (29 files) — provenance gap, published anyway by owner's decision
+### Unconfirmed origin (28 files) — provenance gap, published anyway by owner's decision
 
 `alcohol-shop.mp3`, `aquarium.mp3`, `bar.mp3`, `bicycle.mp3`, `car-repair.mp3`, `car-wash.mp3`,
-`car.mp3`, `cemetery.mp3`, `crying-woman.mp3`, `dog-park.mp3`, `farm.mp3`, `fuel.mp3`,
+`car.mp3`, `cemetery.mp3`, `crow.mp3`, `crying-woman.mp3`, `dog-park.mp3`,
 `woman-scream.mp3`, `ghost-girl.mp3`, `halloween-ambient-alt.mp3`, `halloween-ambient-night.mp3`,
 `haunted-mansion.mp3`, `highway.mp3`, `horse-riding.mp3`, `industry.mp3`, `laundry.mp3`,
-`parking.mp3`, `racetrack-horse.mp3`, `restaurant.mp3`, `shop.mp3`, `traffic-sfx.mp3`,
+`parking.mp3`, `racetrack-horse.mp3`, `restaurant.mp3`, `scary-eerie-voice.mp3`, `shop.mp3`,
 `veterinary.mp3`, `witch-shop.mp3`, `zoo.mp3` predate any provenance record — no original Pixabay
 filenames, artist credits, or license text were kept alongside them, and none could be recovered
 from git history or a matching raw-download pool. Their encoder fingerprint matches the confirmed
 files above, consistent with (but not proof of) the same Pixabay-download-then-edit origin. These
-29 files were published here at the repository owner's explicit request, accepting this as an
+28 files were published here at the repository owner's explicit request, accepting this as an
 inferred-not-confirmed provenance gap rather than holding them back; their original Pixabay source
 pages should still be re-identified and recorded here when possible. (`woman-scream.mp3`, renamed
-from `fuel-boost.mp3` once its content was confirmed, is a +5dB volume-boosted copy of `fuel.mp3`
-made in-house, sharing the same origin/license status. `fuel.mp3` was subsequently replaced with an
-identical copy of `woman-scream.mp3` so both play at the same volume — they are now the same file
-under two names.)
+from `fuel-boost.mp3` once its content was confirmed, is a +5dB volume-boosted copy of the former
+`fuel.mp3` made in-house, sharing the same origin/license status. `fuel.mp3` was subsequently
+replaced with an identical copy of `woman-scream.mp3` so both played at the same volume, then
+removed entirely once nothing referenced it anymore. `scary-eerie-voice.mp3` is the former
+`traffic-sfx.mp3`, renamed and repurposed as a POI-tap SFX after its original traffic-ambient
+sound-layer turned out to target a map layer that was never actually added. `crow.mp3` is the
+former `farm.mp3`, renamed and now shared by the farm and park POI-tap SFX.)
 
 ---
 
