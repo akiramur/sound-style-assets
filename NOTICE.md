@@ -2,8 +2,8 @@
 
 This document records the license and provenance of every audio file in this repository. It covers
 two independent sound-styles for the `sound-style` SDK: **Basic** (`audio-basic/`, 77 files — this
-section) and **Halloween** (`audio-halloween/`, 50 files — its own section further down, which
-includes a caveat on 29 of them). **No file listed here requires attribution to use, modify, or
+section) and **Halloween** (`audio-halloween/`, 49 files — its own section further down, which
+includes a caveat on 28 of them). **No file listed here requires attribution to use, modify, or
 redistribute.** See [`LICENSE`](./LICENSE) for how this repository's own license terms relate to the
 third-party licenses below.
 
@@ -112,6 +112,16 @@ or non-commercially, with modification permitted and no attribution required, pe
 - `poi-category-windmill.wav`
 - `poi-category-zoo.wav`
 
+### 2026-09-18 note: restored 11 files to their original 5-6s length
+
+`poi-category-airport-sydney.wav` (6s), `poi-category-amusement-park.wav`,
+`poi-category-bar.wav`, `poi-category-basketball.wav`, `poi-category-beach.wav`,
+`poi-category-cemetery.wav`, `poi-category-college-library.wav`, `poi-category-dog-park.wav`,
+`poi-category-restaurant.wav`, `poi-category-school.wav`, and `poi-category-stadium.wav` (5s each)
+had previously been trimmed to 3s for data reduction (sound-style-internal commit `de81637`,
+2026-09-12). At the user's request, all 11 were restored to their original 5-6s versions,
+recovered from `sound-style-internal`'s git history. No change to license/provenance status.
+
 ## CC0 / Public Domain music tracks (5 files, from OpenGameArt.org)
 
 Terrain/world-view BGM tracks, each an unmodified or lightly gain-adjusted CC0-licensed piece of
@@ -142,9 +152,9 @@ kenney.nl).
 
 ---
 
-## Halloween Style — audio-halloween/ (50 files)
+## Halloween Style — audio-halloween/ (49 files)
 
-All 50 files are Pixabay downloads, re-encoded to mp3 (44.1kHz stereo, 128kbps) with an edit applied
+All 49 files are Pixabay downloads, re-encoded to mp3 (44.1kHz stereo, 128kbps) with an edit applied
 to every one — trimmed to length with a fade-out, and loudness-normalized (two-pass `loudnorm`) to a
 consistent reference level (~-19.5 LUFS for SFX, ~-17.5 LUFS for BGM). Same Pixabay Content License
 reasoning as above (every file edited, none served as a general-purpose downloadable library) — no
